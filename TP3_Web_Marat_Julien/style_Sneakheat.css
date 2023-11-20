@@ -1,3 +1,24 @@
 body{
 background-color: rgb(39, 39, 39);
+margin: 0;
+
+.navigation{
+  display: flex; 
+}
+}
+#sneakheat-img{
+    margin-left: 700px;
+}
+#sneak-multi{
+    width: max-content;
+}
+main{
+    margin-left: 600px;
+}
+h1{
+    color: #F22626;
+}
+p{
+    font-size: 25px;
+    color: #FF9830;
 }
