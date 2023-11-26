@@ -4,7 +4,6 @@
 
 body{
 background-color: rgb(39, 39, 39);
-margin: 0;
 }
 .navigation{
   display: flex; 
@@ -51,6 +50,7 @@ margin: 0;
 
 h1{
     color: #F22626;
+    font-size: 37px;
 }
 #sneakheat-img{
     margin-left: 15%;
@@ -59,7 +59,19 @@ p{
     font-size: 25px;
     color: #FF9830;
 }
-main{
+.main{
     text-align: justify;
-    padding-left: 100px;
+    padding-left: 320px;
+    margin-bottom: 300px;
+}
+
+.up{
+    color: orange;
+    margin-left: 40%;
+    font-size: 22px;
+
+}
+#shopIcon{
+    color: #FF9830;
+  
 }
