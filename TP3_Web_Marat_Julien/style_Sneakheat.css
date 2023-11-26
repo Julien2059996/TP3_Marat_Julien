@@ -13,6 +13,8 @@ margin: 0;
   align-items: center;
 }
 
+
+
 .search{
     width: 27vw;
     border-bottom-right-radius: 20px ;
@@ -50,7 +52,14 @@ margin: 0;
 h1{
     color: #F22626;
 }
+#sneakheat-img{
+    margin-left: 15%;
+}
 p{
     font-size: 25px;
     color: #FF9830;
+}
+main{
+    text-align: justify;
+    padding-left: 100px;
 }
