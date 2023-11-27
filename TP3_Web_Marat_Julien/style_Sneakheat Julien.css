@@ -24,7 +24,11 @@ h1 {
 
     background-color: white;
 }
-
+.Marginmain{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 .container {
     justify-content: center;
     display: flex;
@@ -93,4 +97,10 @@ h1 {
 }
 .prixdiv{
     margin-left: 25px;
+}
+.up{
+    color: orange;
+    margin-left: 40%;
+    font-size: 22px;
+
 }
