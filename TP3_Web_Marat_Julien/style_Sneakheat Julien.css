@@ -48,12 +48,19 @@ h1 {
 .produitbox {
     width: 500px;
     height: 500px;
+    border-radius: 25px 0px 0px 25px;
 }
 
 .boxsh {
     width: 100%;
     height: auto;
     border-radius: 25px 25px 0px 0px;
+}
+
+.titreProduit {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
 }
 
 .descSneak {
@@ -118,4 +125,17 @@ h1 {
     width: 500px;
     height: 500px;
     background-color: white;
+    border-radius: 0px 25px 25px 0px;
+}
+.margin50 {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.ajoutergros {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    vertical-align: middle;
+    font-size: x-large;
+
 }
