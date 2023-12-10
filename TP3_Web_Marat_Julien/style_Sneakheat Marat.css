@@ -18,7 +18,7 @@ font-family: 'Inter', sans-serif;
     
 }
 #contactLink{
-    margin-right: 100px;
+    margin-right: 00px;
 }
 #input{
     height: 40px;
@@ -88,10 +88,14 @@ p{
     font-weight: bold;
     color: #FF9830;
 }
-.main{
+.mainAPropos{
     text-align: justify;
     padding-left: 400px;
     margin-bottom: 300px;
+}
+.mainContact{
+    text-align: start;
+
 }
 
 .up{
@@ -103,4 +107,108 @@ p{
 #shopIcon{
     color: #FF9830;
   
+}
+li{
+    color: #FF9830;
+}
+
+
+
+
+td{
+    color: #FF9830;
+    margin-left: 90x;
+}
+.reseau{
+ display: flex;
+flex-direction: row;
+}
+
+#insta{
+   color: blue;
+}
+
+.socialLogos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px
+}
+
+.socialLogo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.socialLogo img{
+    width: 150px;
+    height: 150px;
+}
+
+.form{
+    width:50vw;
+    height: 450px;
+    background:#FF9830;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    border-radius: 20px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    margin-left: 25%;
+    padding-top: 30px;
+}
+
+.form h1{
+    text-align: center;
+}
+
+.form div{
+    text-align: center;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    
+}
+
+.inputs div{
+    font-weight: 800;
+    text-align: start;
+}
+
+.inputs input, .inputs select{
+    width:150px;
+}
+
+.formLable{
+    text-align: center;
+    font-weight: 800;
+}
+
+.form button{
+    width: 130px;
+    padding: 8px;
+    border-radius: 10px;
+    background: #393939;
+    color:white;
+    outline: none;
+    border: 0px;
+    margin-left: 40%;
+    transition-duration: 0.2s;
+    cursor: pointer;
+
+}
+
+.form button:hover{
+    background: #F22626;
+}
+.imgNike{
+   margin-bottom: 300px;
+    
 }
