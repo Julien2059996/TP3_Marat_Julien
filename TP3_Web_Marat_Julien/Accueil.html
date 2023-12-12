@@ -5,15 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accueil</title>
-    <link rel="stylesheet" href="style_Sneakheat Julien.css">
+    <link rel="stylesheet" href="style_Sneakheat.css">
 </head>
 
 <body>
     <header>
         <!--Navigation principale-->
         <nav>
-
-
             <div class="navigation" id='up'>
                 <a href="Accueil.html"> <img id="imgNav" src="Images/Sneakheat_Runit.png" alt="Sneakheat_Runit"
                         width="300px" height="100px"></a>
@@ -30,22 +28,29 @@
 
         </nav>
     </header>
-    <img src="Images/SneakerMain.jpg" width="100%" height="auto">
+    <!-- Image principale avec chaussures -->
+    <img src="Images/SneakerMain.jpg" width="100%" height="auto" alt="Chaussures">
+    <!-- Ligne 36-135: Liste produits recommandés avec flexbox (très répétitif)-->
     <h1 class="Centre">Recommandés pour vous</h1>
     <div class="container">
         <div class="box">
-            <img class="boxsh" src="Images/4DFWD 2 RUNNING SHOES.jpg" alt="">
+            <!-- Image chaussure -->
+            <a href="Adidas_4DFWD.html"><img class="boxsh" src="Images/4DFWD 2 RUNNING SHOES.jpg" alt="4DFWD 2"></a>
+            <!-- Nom -->
             <p class="descSneak">Adidas 4DFWD 2</p>
             <div class="prixdiv">
+                <!-- Prix -->
                 <p class="prixSneak">CAD$190</p>
             </div><br>
+            <!-- Boutton interactible ajouter au panier -->
             <div class="panier" onmouseover="this.style.background='#FF0000';"
                 onmouseout="this.style.background='rgb(39, 39, 39)';">
                 <a class="ajouter" href="">Ajouter au panier</a>
             </div>
         </div>
+        <!-- Ce qui suit est une répétition du div précédent avec des changements dépendant du produit -->
         <div class="box">
-            <img class="boxsh" src="Images/Adidas Yeezy Boost 350 V2 (White).jpg" alt="">
+            <img class="boxsh" src="Images/Adidas Yeezy Boost 350 V2 (White).jpg" alt="Adidas Yeezy Boost 350 V2">
             <p class="descSneak">Adidas Yeezy Boost 350</p>
             <div class="prixdiv">
                 <p class="prixSneak">CAD$270</p>
@@ -56,7 +61,7 @@
             </div>
         </div>
         <div class="box">
-            <img class="boxsh" src="Images/Jordan 1 Retro Low Golf.jpg" alt="">
+            <img class="boxsh" src="Images/Jordan 1 Retro Low Golf.jpg" alt="Jordan 1 Retro Low Golf">
             <p class="descSneak">Jordan 1 Retro Low Golf</p>
             <div class="prixdiv">
                 <p class="prixSneak">CAD$1008</p>
@@ -67,7 +72,7 @@
             </div>
         </div>
         <div class="box">
-            <img class="boxsh" src="Images/Adidas Yeezy 700 V3.jpg" alt="">
+            <img class="boxsh" src="Images/Adidas Yeezy 700 V3.jpg" alt="Adidas Yeezy 700 V3">
             <p class="descSneak">Adidas Yeezy 700 V3</p>
             <div class="prixdiv">
                 <p class="prixSneak">CAD$183</p>
@@ -81,7 +86,7 @@
     <br>
     <div class="container">
         <div class="box">
-            <img class="boxsh" src="Images/Nike SB Dunk Low.jpg" alt="">
+            <img class="boxsh" src="Images/Nike SB Dunk Low.jpg" alt="Nike SB Dunk Low">
             <p class="descSneak">Nike SB Dunk Low</p>
             <div class="prixdiv">
                 <p class="prixSneak">CAD$274</p>
@@ -92,7 +97,7 @@
             </div>
         </div>
         <div class="box">
-            <img class="boxsh" src="Images/Jordan 12 Retro Cherry.jpg" alt="">
+            <img class="boxsh" src="Images/Jordan 12 Retro Cherry.jpg" alt="Jordan 12 Retro Cherry">
             <p class="descSneak">Jordan 12 Retro Cherry</p>
             <div class="prixdiv">
                 <p class="prixSneak">CAD$338</p>
@@ -103,7 +108,7 @@
             </div>
         </div>
         <div class="box">
-            <img class="boxsh" src="Images/Adidas Campus 00s.jpg" alt="">
+            <img class="boxsh" src="Images/Adidas Campus 00s.jpg" alt="Adidas Campus 00s">
             <p class="descSneak">Adidas Campus 00s</p>
             <div class="prixdiv">
                 <p class="prixSneak">CAD$198</p>
@@ -114,7 +119,7 @@
             </div>
         </div>
         <div class="box">
-            <img class="boxsh" src="Images/Nike Air Max 1 PRM.jpg" alt="">
+            <img class="boxsh" src="Images/Nike Air Max 1 PRM.jpg" alt="Nike Air Max 1 PRM">
             <p class="descSneak">Nike Air Max 1 PRM</p>
             <div class="prixdiv">
                 <p class="prixSneak">CAD$135</p>
@@ -125,31 +130,41 @@
             </div>
         </div>
     </div>
+    <!-- Fin des produits recommandés -->
     <br>
-    <img class="Marginmain" src="Images/Logo Sneakheat Gris.png" width="auto" height="200">
+    <!-- Logo gris géant -->
+    <img class="Marginmain" src="Images/Logo Sneakheat Gris.png" width="auto" height="200" alt="Logo Sneakheat Gris">
     <br>
+    <!-- Vidéo -->
     <iframe class="Marginmain" width="50%" height="400"
         src="https://www.youtube.com/embed/lky2P_aw6nc?si=lUhbzGrf6nTfCnfB" title="YouTube video player" frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen></iframe>
     <br>
+    <!-- Ligne 147-256: Liste produits en promotion avec flexbox (très répétitif)-->
     <h1 class="Centre">Promotions cette semaine</h1>
     <div class="container">
         <div class="box">
-            <img class="boxsh" src="Images/Nike Dunk Low SP.jpg" alt="">
+            <!-- Image chaussure -->
+            <img class="boxsh" src="Images/Nike Dunk Low SP.jpg" alt="Nike Dunk Low SP">
+            <!-- Nom -->
             <p class="descSneak">Nike Dunk Low SP</p>
             <div class="prixdiv">
+                <!-- Prix en promotion -->
                 <p class="prixSneakPROMO">CAD$160</p>
+                <!-- Ancient prix -->
                 <p class="prixSneakOLD">CAD$190</p>
             </div>
             <br>
+            <!-- Boutton interactible ajouter au panier -->
             <div class="panier" onmouseover="this.style.background='#FF0000';"
                 onmouseout="this.style.background='rgb(39, 39, 39)';">
                 <a class="ajouter" href="">Ajouter au panier</a>
             </div>
         </div>
+        <!-- Ce qui suit est une répétition du div précédent avec des changements dépendant du produit -->
         <div class="box">
-            <img class="boxsh" src="Images/Adidas Yeezy Boost 350 V2 (Black).jpg" alt="">
+            <img class="boxsh" src="Images/Adidas Yeezy Boost 350 V2 (Black).jpg" alt="Adidas Yeezy Boost 350 V2">
             <p class="descSneak">Adidas Yeezy Boost 350</p>
             <div class="prixdiv">
                 <p class="prixSneakPROMO">CAD$300</p>
@@ -162,7 +177,7 @@
             </div>
         </div>
         <div class="box">
-            <img class="boxsh" src="Images/New Balance 550.jpg" alt="">
+            <img class="boxsh" src="Images/New Balance 550.jpg" alt="New Balance 550">
             <p class="descSneak">New Balance 550</p>
             <div class="prixdiv">
                 <p class="prixSneakPROMO">CAD$150</p>
@@ -175,7 +190,7 @@
             </div>
         </div>
         <div class="box">
-            <img class="boxsh" src="Images/Nike Air Force 1 Low PRM.jpg" alt="">
+            <img class="boxsh" src="Images/Nike Air Force 1 Low PRM.jpg" alt="Nike Air Force 1 Low PRM">
             <p class="descSneak">Nike Air Force 1 Low PRM</p>
             <div class="prixdiv">
                 <p class="prixSneakPROMO">CAD$180</p>
@@ -191,7 +206,7 @@
     <br>
     <div class="container">
         <div class="box">
-            <img class="boxsh" src="Images/Adidas Yeezy Slide.jpg" alt="">
+            <img class="boxsh" src="Images/Adidas Yeezy Slide.jpg" alt="Adidas Yeezy Slide">
             <p class="descSneak">Adidas Yeezy Slide</p>
             <div class="prixdiv">
                 <p class="prixSneakPROMO">CAD$100</p>
@@ -204,7 +219,7 @@
             </div>
         </div>
         <div class="box">
-            <img class="boxsh" src="Images/Jordan 1 Low.jpg" alt="">
+            <img class="boxsh" src="Images/Jordan 1 Low.jpg" alt="Jordan 1 Low">
             <p class="descSneak">Jordan 1 Low</p>
             <div class="prixdiv">
                 <p class="prixSneakPROMO">CAD$200</p>
@@ -217,7 +232,7 @@
             </div>
         </div>
         <div class="box">
-            <img class="boxsh" src="Images/Timberland 6” Premium.jpg" alt="">
+            <img class="boxsh" src="Images/Timberland 6” Premium.jpg" alt="Timberland 6” Premium">
             <p class="descSneak">Timberland 6” Premium</p>
             <div class="prixdiv">
                 <p class="prixSneakPROMO">CAD$150</p>
@@ -230,7 +245,7 @@
             </div>
         </div>
         <div class="box">
-            <img class="boxsh" src="Images/Nike Air More Uptempo 96.jpg" alt="">
+            <img class="boxsh" src="Images/Nike Air More Uptempo 96.jpg" alt="Nike Air More Uptempo 96">
             <p class="descSneak">Nike Air More Uptempo 96</p>
             <div class="prixdiv">
                 <p class="prixSneakPROMO">CAD$185</p>
@@ -244,6 +259,7 @@
         </div>
     </div>
     <br><br><br><br>
+    <!-- Ancre de haut de page pour remonter -->
     <a class='up' href='#up'>Remonter en haut de la page</a>
     <br><br><br>
 </body>

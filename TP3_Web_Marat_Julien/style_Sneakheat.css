@@ -1,0 +1,361 @@
+body {
+    background-color: rgb(39, 39, 39);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.Centre {
+    text-align: center;
+}
+
+.Orange {
+    color: #ff9830;
+}
+
+.Coin {
+
+    background-color: white;
+}
+
+.Coinsh {
+
+    background-color: white;
+}
+
+.Marginmain {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    justify-content: center;
+    display: flex;
+}
+
+.box {
+    width: 250px;
+    height: 350px;
+    margin-left: 1%;
+    margin-right: 1%;
+    background-color: #ff9830;
+    border-radius: 25px;
+}
+
+.produitbox {
+    width: 500px;
+    height: 500px;
+    border-radius: 25px 0px 0px 25px;
+}
+
+.boxsh {
+    width: 100%;
+    height: auto;
+    border-radius: 25px 25px 0px 0px;
+}
+
+.titreProduit {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.descSneak {
+    margin-left: 25px;
+    font-weight: bold;
+}
+
+.prixSneakPROMO {
+    font-size: x-large;
+    font-weight: bold;
+    margin-left: 25px;
+    color: yellow;
+    display: table-cell;
+}
+
+.prixSneakOLD {
+    font-size: small;
+    font-weight: bold;
+    margin-left: 25px;
+    color: rgb(39, 39, 39);
+    text-decoration: line-through;
+    display: table-cell;
+}
+
+.prixSneak {
+    font-size: x-large;
+    font-weight: bold;
+    margin-left: 25px;
+
+    display: table-cell;
+}
+
+.ajouter {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    vertical-align: middle;
+
+}
+
+.panier {
+    width: 70%;
+    height: 10%;
+    border-radius: 25px;
+    margin-left: 15%;
+    background-color: rgb(39, 39, 39);
+    text-align: center;
+}
+
+.prixdiv {
+    margin-left: 25px;
+}
+
+.up {
+    color: orange;
+    margin-left: 40%;
+    font-size: 22px;
+
+}
+
+.descproduitbox {
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    border-radius: 0px 25px 25px 0px;
+}
+
+.margin50 {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.ajoutergros {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    vertical-align: middle;
+    font-size: x-large;
+
+}
+
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#userIcon {
+    margin-right: 20px;
+
+}
+
+#contactLink {
+    margin-right: 00px;
+}
+
+#input {
+    height: 40px;
+}
+
+#stockX {
+    color: #F22626;
+    text-decoration: none;
+    font-size: 25px;
+
+}
+
+#footLocker {
+    color: #F22626;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.search {
+    width: 518px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    outline: none;
+    height: 30px;
+    border: 1px solid black;
+    border-left: 0px;
+    padding-right: 150px;
+
+
+}
+
+.links {
+    text-decoration: none;
+    color: orange;
+}
+
+.searchIcon {
+    margin-left: 300px;
+    outline: none;
+    width: 25px;
+    box-sizing: border-box;
+    border: 1px solid white;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color: white;
+    height: 42px;
+    border-right: 0px;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+#sneak-multi {
+    width: max-content;
+}
+
+#imgNav {
+    margin-top: 30px;
+}
+
+h1 {
+    color: #F22626;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+#sneakheat-img {
+    margin-left: 25%;
+}
+
+.p1 {
+    font-size: 25px;
+    font-weight: bold;
+    color: #FF9830;
+}
+
+.mainAPropos {
+    text-align: justify;
+    padding-left: 400px;
+    margin-bottom: 300px;
+}
+
+.mainContact {
+    text-align: start;
+
+}
+
+.up {
+    color: orange;
+    margin-left: 40%;
+    font-size: 22px;
+    padding-bottom: 5%;
+}
+
+#shopIcon {
+    color: #FF9830;
+
+}
+
+li {
+    color: #FF9830;
+}
+
+
+
+
+.td1 {
+    color: #FF9830;
+    margin-left: 90x;
+}
+
+.reseau {
+    display: flex;
+    flex-direction: row;
+}
+
+#insta {
+    color: blue;
+}
+
+.socialLogos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px
+}
+
+.socialLogo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.socialLogo img {
+    width: 150px;
+    height: 150px;
+}
+
+.form {
+    width: 50vw;
+    height: 450px;
+    background: #FF9830;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 20px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    margin-left: 25%;
+    padding-top: 30px;
+}
+
+.form h1 {
+    text-align: center;
+}
+
+.form div {
+    text-align: center;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+
+}
+
+.inputs div {
+    font-weight: 800;
+    text-align: start;
+}
+
+.inputs input,
+.inputs select {
+    width: 150px;
+}
+
+.formLable {
+    text-align: center;
+    font-weight: 800;
+}
+
+.form button {
+    width: 130px;
+    padding: 8px;
+    border-radius: 10px;
+    background: #393939;
+    color: white;
+    outline: none;
+    border: 0px;
+    margin-left: 40%;
+    transition-duration: 0.2s;
+    cursor: pointer;
+
+}
+
+.form button:hover {
+    background: #F22626;
+}
+
+.imgNike {
+    margin-bottom: 300px;
+
+}
